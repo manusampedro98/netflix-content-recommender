@@ -4,7 +4,10 @@ En este proyecto he desarrollado un sistema capaz de recomendar películas y ser
 
 Mi objetivo ha sido recorrer el proceso completo de un proyecto de datos: explorar un dataset real, limpiarlo, preparar sus variables, construir el recomendador, comprobar su funcionamiento con tests y crear una aplicación web interactiva.
 
+## Aplicación en línea
 
+Puedes probar el recomendador aquí:
+[Abrir el recomendador de Netflix](https://manu-netflix-recommender.streamlit.app)
 
 ## ¿Qué hace el proyecto?
 
