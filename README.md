@@ -90,7 +90,7 @@ Netflix_Catalogo_2021/
 │   ├── test_data_processing.py
 │   └── test_recommender.py
 ├── app.py
-├── environment.yml
+├── environment-conda.yml
 ├── requirements.txt
 ├── requirements-dev.txt
 └── README.md
@@ -103,7 +103,7 @@ He separado el proyecto en módulos para evitar concentrar todo el código en el
 La forma recomendada de crear el entorno es:
 
 ```powershell
-conda env create -f environment.yml
+conda env create -f environment-conda.yml
 conda activate Netflix_Cat_2021
 ```
 
