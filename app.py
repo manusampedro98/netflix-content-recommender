@@ -29,6 +29,38 @@ st.set_page_config(
     layout="wide",
 )
 
+# Estilos visuales de la aplicación
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background:
+            radial-gradient(
+                circle at 15% 10%,
+                rgba(255, 75, 80, 0.13),
+                transparent 32%
+            ),
+            radial-gradient(
+                circle at 85% 85%,
+                rgba(120, 0, 20, 0.10),
+                transparent 35%
+            ),
+            linear-gradient(
+                135deg,
+                #0e1117 0%,
+                #0b0d12 50%,
+                #111318 100%
+            );
+        background-attachment: fixed;
+    }
+
+    [data-testid="stHeader"] {
+        background: transparent;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 @st.cache_resource(
     show_spinner="Preparando el recomendador..."

@@ -24,6 +24,7 @@ class RecomendadorNetflix:
             "Combined Features",
             "Content Type",
             "Release Year",
+            "Director",
             "Genres",
             "Imdb Score",
         }
@@ -141,6 +142,7 @@ class RecomendadorNetflix:
             "Title",
             "Content Type",
             "Release Year",
+            "Director",
             "Genres",
             "Imdb Score",
         ]

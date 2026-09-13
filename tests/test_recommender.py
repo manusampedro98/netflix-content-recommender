@@ -105,6 +105,7 @@ def test_recomendar_titulo_similar():
 
     assert len(resultado) == 1
     assert resultado.iloc[0]["Title"] == "Zombie Escape"
+    assert resultado.iloc[0]["Director"] == "John Horror"
     assert resultado.iloc[0]["Similarity (%)"] > 0
 
 
