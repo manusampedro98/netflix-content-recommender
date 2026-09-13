@@ -51,7 +51,19 @@ def cargar_recomendador():
 
 
 # Encabezado de la aplicación
-st.title("Recomendador de Netflix")
+columna_icono, columna_titulo = st.columns(
+    [1, 11],
+    vertical_alignment="center",
+)
+
+with columna_icono:
+    st.image(
+        str(RUTA_ICONO),
+        width=80,
+    )
+
+with columna_titulo:
+    st.title("Recomendador de Netflix")
 
 st.write(
     "Selecciona una película o serie y descubre títulos similares "
