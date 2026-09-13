@@ -113,7 +113,7 @@ with columna_cantidad:
 boton_recomendar = st.button(
     label="Obtener recomendaciones",
     type="primary",
-    use_container_width=True,
+    width="stretch",
 )
 
 if boton_recomendar:
@@ -151,7 +151,7 @@ if boton_recomendar:
             st.dataframe(
                 recomendaciones_mostradas,
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
                 column_config={
                     "Año": st.column_config.NumberColumn(
                         format="%d"
